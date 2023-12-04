@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;700&family=Mooli&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+*::selection{
+    color: #fff;
+    background-color: #000;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    background-color: #fff;
+}
+#home{
+    width: 100%;
+    min-height: 100vh;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+}
+#nav img{
+    width: 100px;
+}
+#nav #right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: .5;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+#nav i{
+    margin-top: 3px;
+    font-size: 20px;
+}
+#home #homemain{
+    width: 100%;
+    padding: 15vw 15vw;
+}
+#homemain h1{
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+.headings{
+    display: flex;
+    gap: 40px;
+}
+#homemain .headings h1:hover{
+    color: #000;
+}
+#homemain .headings h1{
+    font-size: 5.9vw;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 1;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+#homelast{
+    padding: 5vw 15vw;
+}
+#homelast p{
+    width: 70%;
+    font-size: 1vw;
+    font-weight: 400;
+    letter-spacing: .08vw;
+}
+#homelast p::selection{
+    color: #fff;
+    background-color: #000;
+}
+#feature{
+    padding: 10vw 15vw;
+}
+.Fheading>h1{
+    line-height: 1;
+    font-size: 2.5vw;
+    font-weight: 400;
+}
+.Fheading>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+#featuredimages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5vw;
+    height: 100vh;
+}
+#fleft{
+    width: 45%;
+    height: inherit;
+    overflow: hidden;
+}
+.flelm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: inherit;
+}
+.flelm h1{
+    font-size: 2vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.8vw 0;
+}
+.flelm h4{
+    opacity: .5;
+}
+.flelm h3{
+    font-size: 1.5vw;
+    font-family: 200;
+}
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+    height: inherit;
+}
+#fright .images{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+}
+#fright .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    padding: 1vw 2vw;
+    border-radius: 100px;
+    border: 2px solid gray;
+    background-color: #fff;
+    font-size: 1vw;
+    font-family: 500;
+    letter-spacing: -1px;
+}
+#dev{
+    width: 100%;
+    padding: 5vw 15vw;
+}
+#dev h1{
+    font-size: 3.8vw;
+    font-weight: 400;
+    width: 60%;
+    line-height: 1;
+    text-transform: capitalize;
+}
+#dev p{
+    font-size: 1.3vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 60%;
+}
+#slide{
+    padding: 3vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.slide{
+    width: 30%;
+}
+.slide .image{
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: yellow;
+}
+.slide .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide .tag{
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px;
+    margin: 20px 0;
+    background-color: #f7f7f7;
+}
+.slide h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
